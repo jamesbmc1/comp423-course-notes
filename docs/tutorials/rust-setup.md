@@ -7,9 +7,8 @@
 Before moving on to the tutorial, make sure you have the following completed: 
 
 1. **Git**: Install Git if you haven't already. 
-2. **GitHub Account**: Have a [GitHub](https://github.com/) account, if you don't, create one.
-3. **Visual Studio Code (VS Code)**: Download and Install [VSCode](https://code.visualstudio.com/) if necessary.
-4. **Docker**: Necessary to run the dev container. 
+2. **Visual Studio Code (VS Code)**: Download and Install [VSCode](https://code.visualstudio.com/) if necessary.
+3. **Docker**: Necessary to run the dev container. 
 
 
 ## Part 1: Creating the Repository
@@ -34,7 +33,7 @@ git init
 ```bash
 .devcontainer/devcontainer.json
 ```
-5. Add the following information to the devcontainer.json: 
+5. Add the following information to the devcontainer.json : 
 
 ```bash
 {
@@ -49,6 +48,7 @@ git init
     }
 }
 ```
+!!! Tip "Make Sure You Save `devcontainer/devcontainer.json` before launching dev conatiner"
 
 
 **"name":** This is the name for your dev container.
@@ -60,7 +60,7 @@ git init
 
 ## Part 3: Opening Dev Container and Verifying Installation
 ### Step 3: Opening Dev Container
-Open the project in the container by pressing Ctrl+Shift+P (or Cmd+Shift+P on Mac), typing "Dev Containers: Reopen in Container," 
+Open the project in the container by pressing `Ctrl+Shift+P` (or `Cmd+Shift+P on Mac`), typing "Dev Containers: Reopen in Container," 
 and selecting the option. This may take a few minutes while the image is downloaded and the requirements are installed.
 
 ### Step 4: Check Installation
@@ -93,6 +93,7 @@ Use the following command to compile the program:
 ```bash
 cargo build
 ```
+<!-- is there a way to print Hello 423 by using build -->
 
 This compiles your code and creates the folder **target\debug** and creates an executable. This is similar to GCC in 211 as you compile first and then run the executable file. 
 
@@ -107,7 +108,7 @@ cargo run
 
 Your Program should output "Hello COMP423" in the terminal. This means that you have properly installed and made a Rust function!
 
-### **Citations:**
+### **Citation:**
 
 **Title:**  Starting a Static Website Project with MkDocs
 
