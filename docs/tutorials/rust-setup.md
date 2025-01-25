@@ -93,7 +93,6 @@ Use the following command to compile the program:
 ```bash
 cargo build
 ```
-<!-- is there a way to print Hello 423 by using build -->
 
 This compiles your code and creates the folder **target\debug** and creates an executable. This is similar to GCC in 211 as you compile first and then run the executable file. 
 
